@@ -549,8 +549,8 @@ importers:
         version: 3.24.1
     devDependencies:
       '@clerk/types':
-        specifier: ^4.41.2
-        version: 4.41.2
+        specifier: ^4.44.2
+        version: 4.44.2
       '@repo/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
@@ -2095,8 +2095,8 @@ packages:
     resolution: {integrity: sha512-vyv+ePK/hvYon1NZS9OtQM4zGPs+KpHWJpnJ2Ejh5/1sNSOodtfcnYm0SjAfuXFSPd973uWkIIN68b9xUocPaQ==}
     engines: {node: '>=18.17.0'}
 
-  '@clerk/types@4.41.2':
-    resolution: {integrity: sha512-8hvNzyeSa2sENQ86jHXTSnGKfhr9OHcIcm4w7bU4pAhCqF2aLYi9AZGNY4nvBcS3zPw1e8OLMiRKi5qhZrdt+g==}
+  '@clerk/types@4.44.2':
+    resolution: {integrity: sha512-s0Nznnf7RjnkvkVXG+ahty88HfCPIoxLKMa6YfMt0alQ7KXeDouQlLKXexX5c1sX3FhcokYmBukVsbeoZAZdqA==}
     engines: {node: '>=18.17.0'}
 
   '@connectrpc/connect-node@1.6.1':
@@ -9546,6 +9546,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  semver@7.7.0:
+    resolution: {integrity: sha512-DrfFnPzblFmNrIZzg5RzHegbiRWg7KMR7btwi2yjHwx06zsUbO5g613sVwEV7FTwmzJu+Io0lJe2GJ3LxqpvBQ==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   sentence-case@2.1.1:
     resolution: {integrity: sha512-ENl7cYHaK/Ktwk5OTD+aDbQ3uC8IByu/6Bkg+HDv8Mm+XnBnppVNalcfJTNsp1ibstKh030/JKQQWglDvtKwEQ==}
 
@@ -11896,7 +11901,7 @@ snapshots:
   '@clerk/backend@1.23.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@clerk/shared': 2.20.11(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@clerk/types': 4.41.2
+      '@clerk/types': 4.44.2
       cookie: 1.0.2
       snakecase-keys: 8.0.1
       tslib: 2.4.1
@@ -11907,7 +11912,7 @@ snapshots:
   '@clerk/clerk-react@5.22.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@clerk/shared': 2.20.11(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@clerk/types': 4.41.2
+      '@clerk/types': 4.44.2
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
       tslib: 2.4.1
@@ -11917,7 +11922,7 @@ snapshots:
       '@clerk/backend': 1.23.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@clerk/clerk-react': 5.22.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@clerk/shared': 2.20.11(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@clerk/types': 4.41.2
+      '@clerk/types': 4.44.2
       crypto-js: 4.2.0
       next: 15.1.6(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react: 19.0.0
@@ -11927,7 +11932,7 @@ snapshots:
 
   '@clerk/shared@2.20.11(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
-      '@clerk/types': 4.41.2
+      '@clerk/types': 4.44.2
       dequal: 2.0.3
       glob-to-regexp: 0.4.1
       js-cookie: 3.0.5
@@ -11939,10 +11944,10 @@ snapshots:
 
   '@clerk/themes@2.2.9':
     dependencies:
-      '@clerk/types': 4.41.2
+      '@clerk/types': 4.44.2
       tslib: 2.4.1
 
-  '@clerk/types@4.41.2':
+  '@clerk/types@4.44.2':
     dependencies:
       csstype: 3.1.1
 
@@ -18160,7 +18165,7 @@ snapshots:
       commander: 10.0.1
       p-queue: 6.6.2
       p-retry: 4.6.2
-      semver: 7.6.3
+      semver: 7.7.0
       uuid: 10.0.0
 
   leac@0.6.0: {}
@@ -20346,6 +20351,8 @@ snapshots:
   semver@7.6.2: {}
 
   semver@7.6.3: {}
+
+  semver@7.7.0: {}
 
   sentence-case@2.1.1:
     dependencies:
